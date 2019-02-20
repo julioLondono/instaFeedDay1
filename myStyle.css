@@ -1,0 +1,93 @@
+body{
+	background-color: black ;
+	width: 600px;
+	margin: auto;
+	
+	
+}
+ h1 {
+ 	font-size: 18px;
+ 	font-family: arial;
+ 	padding-left: 10px;
+  }
+h2 {
+ 	font-size: 18px;
+ 	font-family: arial;
+ 	padding-left: 10px;
+  }
+
+p{
+	width: 585px;
+	background: white;
+	align-items: center;
+	font: black;
+	}
+
+	
+.flexheader {
+	display: grid;
+	grid-template-columns: [col]38px [col]200px [col]362px;
+	grid-template-rows: [row] 35px [row]35px;
+	
+		}
+	
+.userlogo {
+	display: grid;
+	grid-column: col;
+	grid-row: row / span 2;
+	align-items: center;
+	
+}
+
+.feedtitle{
+	display: grid;
+	grid-column: col 2;
+	grid-row: row ;
+	height: 35px;
+	background: white;
+	
+
+}
+.userName {
+	display: grid;
+	grid-column: col 2;
+	grid-row: row 2;
+	height: 35px;
+	background: white;
+	
+}
+.menu {
+	display: grid;
+	grid-column: col 3;
+	grid-row: row / span 2;
+	text-align: right;
+	padding-left: : 20;
+	align-items: center;
+}
+.content {
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: arial;
+}
+.flexicons{
+	display: flex;
+	background: white;
+	width: 568px;
+	padding-bottom: 0px;
+	
+	}
+
+.glyph {
+	background-color: white;
+	font-size: 38px;
+	padding: 5px;
+	
+	}
+.right {
+	text-align: right;
+	flex-grow: 8;
+}
+
